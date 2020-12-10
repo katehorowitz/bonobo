@@ -3,7 +3,7 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>Bonobo application</title>
+		<title>Bonobo application demo</title>
 	</head>
 
 	<body>
@@ -202,6 +202,11 @@
 						clear: both;
 					}
 
+					.help_text {
+						font-style: italic;
+						color: grey;
+					}
+
 					@media all {
 						.zcwf_lblTopBottom .zcwf_col_lab,
 						.zcwf_lblTopBottom .zcwf_col_fld {
@@ -350,13 +355,15 @@
 					</div>
 				</div>
 				<div class='zcwf_row'>
-					<div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'><label for='LEADCF8'>Challenges<span style='color:red;'>*</span></label></div>
+					<div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'><label for='LEADCF8'>What’s challenging about being in relationship with you?<span style='color:red;'>*</span></label></div>
 					<div class='zcwf_col_fld'><textarea id='LEADCF8' name='LEADCF8'></textarea>
 						<div class='zcwf_col_help'></div>
 					</div>
 				</div>
 				<div class='zcwf_row'>
-					<div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'><label for='LEADCF7'>Allegations<span style='color:red;'>*</span></label></div>
+					<div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'><label for='LEADCF7'>Has anyone made any allegations of sexual boundary crossing, such as any unwanted sexual touching, against you in the last 5 years? Or have you engaged in sexual boundary crossing that we should know about, even if there is no public allegation? If so, please tell us what happened, how it was resolved or not, and where things currently stand.<span style='color:red;'>*</span></label><p class="help_text">
+						Letting us know this information will not necessarily disqualify you, AND if we find out about something after you’ve joined that you did not disclose that information will most likely get you kicked out of Bonobo.
+					</p></div>
 					<div class='zcwf_col_fld'><textarea id='LEADCF7' name='LEADCF7'></textarea>
 						<div class='zcwf_col_help'></div>
 					</div>
@@ -386,7 +393,7 @@
 					</div>
 				</div>
 				<div class='zcwf_row'>
-					<div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'><label for='LEADCF12'>Inclusive behavior<span style='color:red;'>*</span></label></div>
+					<div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'><label for='LEADCF12'>"I would never knowingly disparage another person based on their race, class, gender identity, physical appearance, or disability."<span style='color:red;'>*</span></label></div>
 					<div class='zcwf_col_fld'><select class='zcwf_col_fld_slt' id='LEADCF12' name='LEADCF12'>
    			<option value='-None-'>-None-</option>
    			<option value='Strongly&#x20;disagree'>Strongly disagree</option>
@@ -399,25 +406,27 @@
 					</div>
 				</div>
 				<div class='zcwf_row'>
-					<div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'><label for='LEADCF15'>Call-in response<span style='color:red;'>*</span></label></div>
+					<div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'><label for='LEADCF15'>If someone tells you you’ve said something insensitive to their race, class, or gender identity, physical appearance how do you respond?<span style='color:red;'>*</span></label></div>
 					<div class='zcwf_col_fld'><textarea id='LEADCF15' name='LEADCF15'></textarea>
 						<div class='zcwf_col_help'></div>
 					</div>
 				</div>
 				<div class='zcwf_row'>
-					<div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'><label for='LEADCF14'>Black Lives Matter<span style='color:red;'>*</span></label></div>
+					<div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'><label for='LEADCF14'>What does the phrase “Black Lives Matter” mean to you?<span style='color:red;'>*</span></label></div>
 					<div class='zcwf_col_fld'><textarea id='LEADCF14' name='LEADCF14'></textarea>
 						<div class='zcwf_col_help'></div>
 					</div>
 				</div>
 				<div class='zcwf_row'>
-					<div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'><label for='LEADCF17'>Systemic oppression<span style='color:red;'>*</span></label></div>
+					<div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'><label for='LEADCF17'>What, if anything, does the phrase “systemic oppression” mean to you?<span style='color:red;'>*</span></label></div>
 					<div class='zcwf_col_fld'><textarea id='LEADCF17' name='LEADCF17'></textarea>
 						<div class='zcwf_col_help'></div>
 					</div>
 				</div>
 				<div class='zcwf_row'>
-					<div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'><label for='LEADCF16'>How did you hear about us?<span style='color:red;'>*</span></label></div>
+					<div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'><label for='LEADCF16'>How did you hear about Bonobo Network?<span style='color:red;'>*</span></label><p class="help_text">
+						Check all that apply.
+					</p></div>
 					<div class='zcwf_col_fld'><select class='zcwf_col_fld_slt' id='LEADCF16' name='LEADCF16' multiple>
    			<option value='From&#x20;a&#x20;friend&#x2f;word&#x20;of&#x20;mouth'>From a friend&#x2f;word of mouth</option>
    			<option value='From&#x20;an&#x20;event&#x20;that&#x20;referred&#x20;me&#x20;to&#x20;Bonobo&#x20;Network'>From an event that referred me to Bonobo Network</option>
@@ -432,7 +441,7 @@
 					</div>
 				</div>
 				<div class='zcwf_row'>
-					<div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'><label for='LEADCF19'>Age<span style='color:red;'>*</span></label></div>
+					<div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'><label for='LEADCF19'>Your age?<span style='color:red;'>*</span></label></div>
 					<div class='zcwf_col_fld'><select class='zcwf_col_fld_slt' id='LEADCF19' name='LEADCF19'>
    			<option value='-None-'>-None-</option>
    			<option value='18-20'>18-20</option>
@@ -450,7 +459,9 @@
 					</div>
 				</div>
 				<div class='zcwf_row'>
-					<div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'><label for='LEADCF18'>Gender identity<span style='color:red;'>*</span></label></div>
+					<div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'><label for='LEADCF18'>My gender identity is best described as…<span style='color:red;'>*</span></label><p class="help_text">
+						Check all that apply.
+					</p></div>
 					<div class='zcwf_col_fld'><select class='zcwf_col_fld_slt' id='LEADCF18' name='LEADCF18' multiple>
    			<option value='Genderqueer'>Genderqueer</option>
    			<option value='Intersex'>Intersex</option>
@@ -465,7 +476,7 @@
 					</div>
 				</div>
 				<div class='zcwf_row'>
-					<div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'><label for='LEADCF21'>Race / ethnicity<span style='color:red;'>*</span></label></div>
+					<div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'><label for='LEADCF21'>My race or ethnicity is…<span style='color:red;'>*</span></label></div>
 					<div class='zcwf_col_fld'><select class='zcwf_col_fld_slt' id='LEADCF21' name='LEADCF21' multiple>
    			<option value='Asian&#x2f;Asian&#x20;American&#x2f;Pacific&#x20;Islander'>Asian&#x2f;Asian American&#x2f;Pacific Islander</option>
    			<option value='Black&#x2f;African&#x20;American'>Black&#x2f;African American</option>
@@ -479,7 +490,9 @@
 					</div>
 				</div>
 				<div class='zcwf_row'>
-					<div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'><label for='LEADCF22'>Orientation<span style='color:red;'>*</span></label></div>
+					<div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'><label for='LEADCF22'>How do you describe your sexual orientation?<span style='color:red;'>*</span></label><p class="help_text">
+						Check all that apply.
+					</p></div>
 					<div class='zcwf_col_fld'><select class='zcwf_col_fld_slt' id='LEADCF22' name='LEADCF22' multiple>
    			<option value='Asexual'>Asexual</option>
    			<option value='Bisexual'>Bisexual</option>
